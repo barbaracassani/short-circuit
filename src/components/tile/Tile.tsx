@@ -26,7 +26,7 @@ class Tile extends React.Component<TileProps, ComponentState> {
   }
 
   render() {
-    return <><button onClick={this.toggleState}>Tile{this.props.children}</button></>;
+    return <><div className="tile" onClick={this.toggleState}>Tile{this.props.children}</div></>;
   }
 }
 
