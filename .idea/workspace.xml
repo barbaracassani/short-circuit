@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31ca319a-d865-4bea-81fd-b4e5351316f8" name="Default Changelist" comment="" />
+    <list default="true" id="31ca319a-d865-4bea-81fd-b4e5351316f8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/play-area/Tile-picker.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/play-area/parser.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/play-area/parser.tsx" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,18 +23,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="265">
               <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.test.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="9" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -65,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/play-area/test/parser.test.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            <state relative-caret-position="133">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -79,14 +71,18 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/play-area/test/__snapshots__/parser.test.tsx.snap">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/play-area/parser.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+            <state relative-caret-position="309">
+              <caret line="35" column="38" lean-forward="true" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -97,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/play-area/PlayArea.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            <state relative-caret-position="150">
+              <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
               <folding>
                 <element signature="e#61#102#0" expanded="true" />
               </folding>
@@ -106,10 +102,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/.bin/react-scripts">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/play-area/Tile-picker.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-449" />
+            <state relative-caret-position="328">
+              <caret line="22" column="49" lean-forward="true" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/tile/Tile.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -145,10 +152,11 @@
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/components/play-area/PlayArea.tsx" />
         <option value="$PROJECT_DIR$/src/components/play-area/sizer.tsx" />
-        <option value="$PROJECT_DIR$/src/components/play-area/parser.tsx" />
         <option value="$PROJECT_DIR$/src/components/play-area/test/parser.test.tsx" />
         <option value="$PROJECT_DIR$/src/levels.ts" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/components/play-area/parser.tsx" />
+        <option value="$PROJECT_DIR$/src/components/play-area/Tile-picker.tsx" />
       </list>
     </option>
   </component>
@@ -314,7 +322,7 @@
     <frame x="48" y="23" width="1392" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24945295" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945295" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -328,7 +336,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="GraphQL" order="8" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.21391076" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.09448819" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -398,29 +406,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/tile/Tile.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/play-area/sizer.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/play-area/PlayArea.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding>
-            <element signature="e#61#102#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -440,15 +431,50 @@
         <state relative-caret-position="-449" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/play-area/test/__snapshots__/parser.test.tsx.snap">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/play-area/parser.tsx">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        <state relative-caret-position="270">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/play-area/test/parser.test.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/play-area/test/__snapshots__/parser.test.tsx.snap">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/tile/Tile.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/play-area/PlayArea.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <element signature="e#61#102#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -470,27 +496,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/src/components/play-area/parser.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/play-area/test/parser.test.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="309">
+          <caret line="35" column="38" lean-forward="true" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/play-area/Tile-picker.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="22" column="49" lean-forward="true" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
         </state>
       </provider>
     </entry>

@@ -4,6 +4,7 @@ import config from '../../config';
 
 import Level from "../../interfaces/level";
 import Tile from "../../components/tile/Tile";
+import TilePicker from './Tile-picker';
 
 interface Sets {
   [index: string]: string;
@@ -13,14 +14,18 @@ const sets: Sets = {
   UmbrellaStarSet: "http://localhost:3000/sets/umbrella-star.svg"
 };
 
-const iterateGrid = (levelGrid: Level["grid"]): (JSX.Element|null)[] => {
-  const url = sets.UmbrellaStarSet;
-  const identifier = "umbrella";
+const iterateGrid = (level: Level): (JSX.Element|null)[] => {
 
-  const splitString = levelGrid.split("");
+  const { grid } = level;
+  const url = sets.UmbrellaStarSet;
+
+  const splitString = grid.split("");
   const totalTileSize = config.tileSize + config.tilePadding;
   let y = 0;
   let x = -totalTileSize;
+
+  const picker = new TilePicker(level);
+
   return splitString.map((char: string, index: number) => {
     x += totalTileSize;
     if (char === "\n") {
@@ -28,6 +33,7 @@ const iterateGrid = (levelGrid: Level["grid"]): (JSX.Element|null)[] => {
       x = -totalTileSize;
       return null;
     } else {
+        const identifier = picker.sendTile();
         return (
             <Tile
                 xPos={x}
@@ -47,9 +53,7 @@ const iterateGrid = (levelGrid: Level["grid"]): (JSX.Element|null)[] => {
 };
 
 const parser = (level: Level) => {
-  const url = sets.UmbrellaStarSet;
-  const identifier = "umbrella";
-  return iterateGrid(level.grid);
+  return iterateGrid(level);
 };
 
 export default parser;
