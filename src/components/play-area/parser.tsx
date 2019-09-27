@@ -18,14 +18,14 @@ const iterateGrid = (levelGrid: Level["grid"]): (JSX.Element|null)[] => {
   const identifier = "umbrella";
 
   const splitString = levelGrid.split("");
-  const tileSize = config.tileSize;
+  const totalTileSize = config.tileSize + config.tilePadding;
   let y = 0;
-  let x = -tileSize;
+  let x = -totalTileSize;
   return splitString.map((char: string, index: number) => {
-    x += tileSize;
+    x += totalTileSize;
     if (char === "\n") {
-      y += tileSize;
-      x = -tileSize;
+      y += totalTileSize;
+      x = -totalTileSize;
       return null;
     } else {
         return (
