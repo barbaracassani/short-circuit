@@ -5,7 +5,7 @@ import levels from '../../levels';
 
 class PlayArea extends React.Component<{}, ComponentState> {
     render() {
-        return parser(levels[0].grid);
+        return <div className="playfield">{parser(levels[0])}</div>;
     }
 }
 export default PlayArea;

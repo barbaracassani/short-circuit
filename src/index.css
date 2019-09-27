@@ -12,8 +12,18 @@ code {
     monospace;
 }
 
+.playfield {
+  position: relative;
+}
+
 .tile {
-  height: 32px;
-  width: 32px;
+  height: 50px;
+  width: 50px;
   background-color: aliceblue;
+  position: absolute;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
 }

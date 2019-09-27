@@ -4,6 +4,8 @@ interface TileProps {
   children: JSX.Element | JSX.Element[];
   getCurrentState: (state: ComponentState) => void;
   identifier: string;
+  xPos: number,
+  yPos: number
 }
 
 class Tile extends React.Component<TileProps, ComponentState> {
@@ -26,7 +28,11 @@ class Tile extends React.Component<TileProps, ComponentState> {
   }
 
   render() {
-    return <><div className="tile" onClick={this.toggleState}>Tile{this.props.children}</div></>;
+    const positioning = {
+      top: this.props.yPos,
+      left: this.props.xPos
+    };
+    return <><div className="tile" style={positioning} onClick={this.toggleState}>{this.props.children}</div></>;
   }
 }
 
