@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the output of parser returns many tiles: many tiles 1`] = `
+Array [
+  <default
+    getCurrentState={[Function]}
+    identifier="umbrella"
+    xPos={0}
+    yPos={0}
+  >
+    <svg
+      className="icon icon-umbrella"
+    >
+      <use
+        xlinkHref="http://localhost:3000/sets/umbrella-star.svg#icon-umbrella"
+      />
+    </svg>
+  </default>,
+  <default
+    getCurrentState={[Function]}
+    identifier="umbrella"
+    xPos={65}
+    yPos={0}
+  >
+    <svg
+      className="icon icon-umbrella"
+    >
+      <use
+        xlinkHref="http://localhost:3000/sets/umbrella-star.svg#icon-umbrella"
+      />
+    </svg>
+  </default>,
+  <default
+    getCurrentState={[Function]}
+    identifier="umbrella"
+    xPos={130}
+    yPos={0}
+  >
+    <svg
+      className="icon icon-umbrella"
+    >
+      <use
+        xlinkHref="http://localhost:3000/sets/umbrella-star.svg#icon-umbrella"
+      />
+    </svg>
+  </default>,
+  null,
+  <default
+    getCurrentState={[Function]}
+    identifier="umbrella"
+    xPos={0}
+    yPos={65}
+  >
+    <svg
+      className="icon icon-umbrella"
+    >
+      <use
+        xlinkHref="http://localhost:3000/sets/umbrella-star.svg#icon-umbrella"
+      />
+    </svg>
+  </default>,
+  <default
+    getCurrentState={[Function]}
+    identifier="umbrella"
+    xPos={65}
+    yPos={65}
+  >
+    <svg
+      className="icon icon-umbrella"
+    >
+      <use
+        xlinkHref="http://localhost:3000/sets/umbrella-star.svg#icon-umbrella"
+      />
+    </svg>
+  </default>,
+  <default
+    getCurrentState={[Function]}
+    identifier="umbrella"
+    xPos={130}
+    yPos={65}
+  >
+    <svg
+      className="icon icon-umbrella"
+    >
+      <use
+        xlinkHref="http://localhost:3000/sets/umbrella-star.svg#icon-umbrella"
+      />
+    </svg>
+  </default>,
+]
+`;
+
+exports[`the output of parser returns one tile: one tile 1`] = `
+Array [
+  <default
+    getCurrentState={[Function]}
+    identifier="umbrella"
+    xPos={0}
+    yPos={0}
+  >
+    <svg
+      className="icon icon-umbrella"
+    >
+      <use
+        xlinkHref="http://localhost:3000/sets/umbrella-star.svg#icon-umbrella"
+      />
+    </svg>
+  </default>,
+]
+`;
